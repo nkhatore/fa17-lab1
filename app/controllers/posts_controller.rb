@@ -9,4 +9,8 @@ class PostsController < ApplicationController
     # The SHOW action is typically synonymous to the READ in CRUD, as it usually READs data from the database
     render :show
   end
+
+  def new
+  end
+  
 end
